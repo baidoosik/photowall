@@ -6,7 +6,7 @@ class TimeStamp(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
 class Post(TimeStamp):
-    title = models.CharField(max_length=100,default='photo')
+    title = models.CharField(max_length=100,default=None)
     category= models.CharField(max_length=100,
         choices = (
             ('미국','미국' ),
