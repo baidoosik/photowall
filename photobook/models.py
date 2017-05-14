@@ -14,7 +14,7 @@ class Post(TimeStamp):
             ('졸업식', '졸업식'),
         ),default=False)
     story = models.CharField(max_length=200)
-    photo = models.ImageField()
+    photo = models.ImageField(upload_to='blog/%Y/%M/%D')
 
     def __str__(self):
         return self.title
