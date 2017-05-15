@@ -1,7 +1,7 @@
 from .common import *
 import os
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*.elasticbeanstalk.com']
 # DEBUG = False  # sentry를 통한 에러로깅
 
 import pymysql
