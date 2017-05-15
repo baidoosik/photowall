@@ -3,11 +3,10 @@ __pycache__
 db.sqlite3
 .DS_Store
 *.json
-options.config
 /staticfiles
 /media
 key.txt
-*.yml
+
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
