@@ -2,7 +2,7 @@ from .common import *
 import os
 
 ALLOWED_HOSTS = ['*']
-# DEBUG = False  # sentry를 통한 에러로깅
+DEBUG = False
 
 import pymysql
 pymysql.install_as_MySQLdb() # pymysql이 MySQLdb처럼 동작토록 세팅
